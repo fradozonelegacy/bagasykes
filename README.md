@@ -1,15 +1,16 @@
 # Baghas Budi Wicaksono — Personal Website
 
-Minimalist green-and-white academic portfolio for teaching, research, selected writing, and professional links.
+Minimalist academic portfolio for teaching, research, selected writing, and professional links.
 
 ## AgriPolicy Intelligence Dashboard
 
-A research-dashboard prototype based on the ICDEES paper on agricultural productivity, labour absorption, and local government expenditure in Cianjur Regency.
-
 - [Open AgriPolicy Intelligence](./agri-policy/)
 - [View dashboard source](./agri-policy/index.html)
+- [Dashboard data notes](./agri-policy/README-v2.md)
 
-The prototype uses a minimalist BINUS Online-inspired blue-and-white interface. Chart series marked “Illustrative” are demo values and must be replaced with verified annual source data before empirical or policy use. See [dashboard notes](./agri-policy/README.md).
+The AgriPolicy dashboard presents official Indonesian agriculture indicators, including rice production and harvested area, province comparisons, and farmer terms of trade. Sources include Statistics Indonesia (BPS) and the Ministry of Agriculture's Pusdatin.
+
+Important: this is a static prototype, not a live government system. It links directly to official data sources; indicators should be checked against the latest publication before research citation or policy use.
 
 ## Deployment
 
