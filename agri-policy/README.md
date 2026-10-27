@@ -1,21 +1,28 @@
 # AgriPolicy Intelligence Dashboard
 
-A static research dashboard prototype based on the paper **“Data-Driven Agricultural Economic Transformation through Integrated Information Systems and AI-Based Decision Support for Sustainable Regional Development in West Priangan.”**
+A minimal, BINUS Online-inspired research dashboard prototype based on the paper **“Data-Driven Agricultural Economic Transformation through Integrated Information Systems and AI-Based Decision Support for Sustainable Regional Development in West Priangan.”**
 
 ## Preview
 
-Once GitHub Pages is enabled and deployed, the dashboard will be available under:
-
 `https://fradozonelegacy.github.io/bagasykes/agri-policy/`
 
-## Important data notes
+## Dashboard contents
 
-- The paper's method section describes an empirical focus on Cianjur Regency over 2010–2017.
-- Annual chart data shown as “Illustrative” are demo values, not empirical observations.
-- Table 1's transcribed coefficients differ from values in the surrounding narrative. Reconcile against original STATA output before enabling numerical scenario projections.
-- Do not present the prototype as an official government system or draw causal conclusions from regression associations.
-- Expand geographic coverage only after acquiring comparable verified data for Sukabumi and Bogor.
+- Research KPI cards for R-squared, F-statistic, and model significance.
+- OLS coefficient chart based on the values transcribed in Table 1.
+- Schematic locator for Cianjur in the West Priangan context.
+- VIF diagnostics chart.
+- Qualitative agricultural-productivity trend as described by the paper.
+- Model-fit doughnut chart and data-transparency note.
+
+## Research transparency
+
+- The methodology describes an empirical focus on Cianjur Regency over 2010–2017.
+- The map is a schematic locator, not a geographic boundary map.
+- The productivity trend is qualitative and is not a reconstruction of annual numeric observations.
+- Table 1's coefficients differ from values in the surrounding narrative. Confirm the original STATA output before relying on the coefficients.
+- The dashboard is a research prototype, not an official government system. Statistical associations should not automatically be interpreted as causal effects.
 
 ## Technology
 
-Static HTML, CSS, and JavaScript; Chart.js charts loaded from CDN. No build step required.
+Static HTML, CSS, and JavaScript; Chart.js loaded from a CDN. No build step required.
