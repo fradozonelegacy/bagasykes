@@ -162,7 +162,7 @@ td:first-child{font-weight:700;color:var(--navy)}
 </div>
 <script>
 const coefCtx=document.getElementById('coefChart');
-new Chart(coefCtx,{type:'bar',data:{labels:['Agricultural labour','Local government expenditure'],datasets:[{label:'Table 1 coefficient',data:[0.01,0.04],backgroundColor:['#1769aa','#f49a38'],borderRadius:6,barThickness:28}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{backgroundColor:'#123b70',padding:10,callbacks:{label:c:'Coefficient: '+c.raw}}},scales:{x:{beginAtZero:true,suggestedMax:.05,grid:{color:'#edf1f6'},ticks:{font:{family:'Inter',size:10},callback:v=>Number(v).toFixed(2)}},y:{grid:{display:false},ticks:{color:'#354b67',font:{family:'Inter',size:11,weight:'600'}}}}}});
+new Chart(coefCtx,{type:'bar',data:{labels:['Agricultural labour','Local government expenditure'],datasets:[{label:'Table 1 coefficient',data:[0.01,0.04],backgroundColor:['#1769aa','#f49a38'],borderRadius:6,barThickness:28}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{backgroundColor:'#123b70',padding:10,callbacks:{label:(c)=>'Coefficient: '+c.raw}}},scales:{x:{beginAtZero:true,suggestedMax:.05,grid:{color:'#edf1f6'},ticks:{font:{family:'Inter',size:10},callback:v=>Number(v).toFixed(2)}},y:{grid:{display:false},ticks:{color:'#354b67',font:{family:'Inter',size:11,weight:'600'}}}}}});
 </script>
 </body>
 </html>
